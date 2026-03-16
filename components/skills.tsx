@@ -1,19 +1,19 @@
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+    title: "Languages",
+    skills: ["Python", "JavaScript", "SQL"],
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "GraphQL"],
+    title: "Frameworks",
+    skills: ["Vue.js", "FastAPI"],
   },
   {
-    title: "Tools & DevOps",
-    skills: ["Git", "Docker", "AWS", "Vercel", "CI/CD"],
+    title: "Infrastructure",
+    skills: ["Docker", "PostgreSQL", "Azure", "Git"],
   },
   {
-    title: "Design",
-    skills: ["Figma", "Adobe XD", "UI/UX", "Prototyping", "Design Systems"],
+    title: "Tools",
+    skills: ["VSCode", "GitHub", "Dev Containers"],
   },
 ]
 

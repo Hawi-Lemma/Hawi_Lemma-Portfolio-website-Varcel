@@ -3,24 +3,24 @@ import { ArrowUpRight } from "lucide-react"
 
 const posts = [
   {
-    title: "The Art of Component Architecture",
-    excerpt: "Exploring patterns for building scalable and maintainable React applications with clean separation of concerns.",
-    date: "March 2026",
-    readTime: "8 min read",
+    title: "Building a Full-Stack Book Platform with Vue and FastAPI",
+    excerpt: "A walkthrough of designing and implementing a book exchange application using modern web technologies.",
+    date: "Coming Soon",
+    readTime: "",
     link: "#",
   },
   {
-    title: "Designing for Performance",
-    excerpt: "A deep dive into web vitals, optimization strategies, and creating lightning-fast user experiences.",
-    date: "February 2026",
-    readTime: "6 min read",
+    title: "Deploying Containerized Applications with Docker",
+    excerpt: "Exploring containerization strategies for development and production environments.",
+    date: "Coming Soon",
+    readTime: "",
     link: "#",
   },
   {
-    title: "Modern CSS Techniques",
-    excerpt: "From container queries to cascade layers — leveraging the latest CSS features for elegant styling solutions.",
-    date: "January 2026",
-    readTime: "5 min read",
+    title: "Using AI APIs in Small Developer Projects",
+    excerpt: "Practical approaches to integrating AI-powered features into lightweight applications.",
+    date: "Coming Soon",
+    readTime: "",
     link: "#",
   },
 ]
@@ -49,8 +49,12 @@ export function Blog() {
                 <div className="flex-1">
                   <div className="flex items-center gap-4 text-sm text-muted-foreground mb-3">
                     <span>{post.date}</span>
-                    <span className="w-1 h-1 rounded-full bg-muted-foreground" />
-                    <span>{post.readTime}</span>
+                    {post.readTime && (
+                      <>
+                        <span className="w-1 h-1 rounded-full bg-muted-foreground" />
+                        <span>{post.readTime}</span>
+                      </>
+                    )}
                   </div>
                   <h3 className="font-serif text-xl text-foreground group-hover:text-primary transition-colors mb-2">
                     {post.title}

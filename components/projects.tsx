@@ -4,23 +4,23 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Lumina Finance",
-    description: "A modern fintech dashboard with real-time analytics and seamless transaction management.",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    title: "Book Exchange Platform",
+    description: "A full-stack web application allowing users to buy, sell, and exchange second-hand books locally. Features include user accounts, searchable listings, book exchanges, and messaging between users.",
+    tags: ["Vue", "FastAPI", "PostgreSQL", "Docker", "Azure"],
     image: "/images/project-1.jpg",
     link: "#",
   },
   {
-    title: "Ethereal Commerce",
-    description: "Full-stack e-commerce platform with personalized recommendations and instant checkout.",
-    tags: ["Next.js", "Stripe", "MongoDB"],
+    title: "AI Resume Analyzer",
+    description: "A lightweight application that analyzes resumes and extracts key skills using AI. The system processes uploaded documents and generates structured summaries.",
+    tags: ["FastAPI", "Python", "AI API", "Docker"],
     image: "/images/project-2.jpg",
     link: "#",
   },
   {
-    title: "Cascade Analytics",
-    description: "Data visualization tool that transforms complex datasets into actionable insights.",
-    tags: ["TypeScript", "D3.js", "AWS"],
+    title: "Cloud Container Demo",
+    description: "A demonstration project exploring containerized application deployment. The project showcases service separation, environment configuration, and database integration.",
+    tags: ["Docker", "PostgreSQL", "FastAPI"],
     image: "/images/project-3.jpg",
     link: "#",
   },
