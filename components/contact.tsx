@@ -11,7 +11,7 @@ export function Contact() {
           <p className="text-sm tracking-widest text-primary uppercase mb-4">
             Get In Touch
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+          <h2 className="font-serif text-[32px] text-foreground text-balance">
             {"Let's Work Together"}
           </h2>
         </div>
@@ -19,7 +19,7 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Contact Info */}
           <div>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+            <p className="text-base text-muted-foreground leading-relaxed mb-8">
               I&apos;m always excited to connect with fellow developers, potential collaborators, 
               and anyone interested in building something amazing. Whether you have a project 
               in mind or just want to say hello, feel free to reach out.

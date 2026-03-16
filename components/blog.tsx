@@ -33,7 +33,7 @@ export function Blog() {
           <p className="text-sm tracking-widest text-primary uppercase mb-4">
             Insights
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+          <h2 className="font-serif text-[32px] text-foreground text-balance">
             Writing & Thoughts
           </h2>
         </div>
@@ -52,10 +52,10 @@ export function Blog() {
                     <span className="w-1 h-1 rounded-full bg-muted-foreground" />
                     <span>{post.readTime}</span>
                   </div>
-                  <h3 className="font-serif text-xl md:text-2xl text-foreground group-hover:text-primary transition-colors mb-2">
+                  <h3 className="font-serif text-xl text-foreground group-hover:text-primary transition-colors mb-2">
                     {post.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-base text-muted-foreground leading-relaxed">
                     {post.excerpt}
                   </p>
                 </div>

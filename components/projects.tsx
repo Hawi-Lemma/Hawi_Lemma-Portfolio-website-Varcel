@@ -34,7 +34,7 @@ export function Projects() {
           <p className="text-sm tracking-widest text-primary uppercase mb-4">
             Selected Work
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+          <h2 className="font-serif text-[32px] text-foreground text-balance">
             Featured Projects
           </h2>
         </div>
@@ -56,7 +56,7 @@ export function Projects() {
               </div>
               <div className="p-6">
                 <div className="flex items-start justify-between mb-3">
-                  <h3 className="font-serif text-xl text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="font-serif text-xl text-foreground group-hover:text-primary transition-colors leading-tight">
                     {project.title}
                   </h3>
                   <ArrowUpRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />

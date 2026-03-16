@@ -7,19 +7,19 @@ export function About() {
             <p className="text-sm tracking-widest text-primary uppercase mb-4">
               About Me
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-8 text-balance">
+            <h2 className="font-serif text-[32px] text-foreground mb-8 text-balance">
               Building the future, one line of code at a time
             </h2>
           </div>
           
           <div className="space-y-6">
-            <p className="text-muted-foreground leading-relaxed text-lg">
+            <p className="text-muted-foreground leading-relaxed text-base">
               With over 7 years of experience in software development, I specialize in creating 
               scalable web applications that combine beautiful design with robust functionality. 
               My approach is rooted in understanding user needs and translating them into 
               intuitive digital solutions.
             </p>
-            <p className="text-muted-foreground leading-relaxed text-lg">
+            <p className="text-muted-foreground leading-relaxed text-base">
               Currently based in San Francisco, I work with startups and enterprises alike, 
               helping them build products that users love. When I&apos;m not coding, you&apos;ll find 
               me exploring nature trails, experimenting with photography, or contributing to 
@@ -38,8 +38,8 @@ export function About() {
               key={stat.label}
               className="bg-card rounded-2xl p-8 text-center shadow-sm border border-border/50 hover:shadow-md transition-shadow"
             >
-              <p className="font-serif text-5xl text-primary mb-2">{stat.number}</p>
-              <p className="text-muted-foreground">{stat.label}</p>
+              <p className="font-serif text-[32px] text-primary mb-2">{stat.number}</p>
+              <p className="text-sm text-muted-foreground">{stat.label}</p>
             </div>
           ))}
         </div>

@@ -9,11 +9,11 @@ export function Hero() {
           Full-Stack Developer
         </p>
         
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-foreground mb-8 text-balance animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
+        <h1 className="font-serif text-5xl md:text-[56px] text-foreground mb-8 text-balance animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
           Alex Chen
         </h1>
         
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12 text-pretty animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
+        <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12 text-pretty animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
           Crafting elegant digital experiences through thoughtful design and modern technologies. 
           Passionate about building products that make a difference.
         </p>

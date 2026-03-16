@@ -40,7 +40,7 @@ export function Collaboration() {
           <p className="text-sm tracking-widest text-primary uppercase mb-4">
             Experience
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+          <h2 className="font-serif text-[32px] text-foreground text-balance">
             Collaboration & Teams
           </h2>
         </div>
@@ -48,7 +48,7 @@ export function Collaboration() {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Work Experience */}
           <div>
-            <h3 className="font-serif text-2xl text-foreground mb-8">
+            <h3 className="font-serif text-xl text-foreground mb-8">
               Work History
             </h3>
             <div className="space-y-6">
@@ -74,7 +74,7 @@ export function Collaboration() {
 
           {/* Testimonials */}
           <div>
-            <h3 className="font-serif text-2xl text-foreground mb-8">
+            <h3 className="font-serif text-xl text-foreground mb-8">
               What People Say
             </h3>
             <div className="space-y-6">

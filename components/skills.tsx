@@ -25,7 +25,7 @@ export function Skills() {
           <p className="text-sm tracking-widest text-primary uppercase mb-4">
             Expertise
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">
+          <h2 className="font-serif text-[32px] text-foreground text-balance">
             Skills & Technologies
           </h2>
         </div>
@@ -36,7 +36,7 @@ export function Skills() {
               key={category.title}
               className="bg-card rounded-2xl p-8 shadow-sm border border-border/50 hover:shadow-md transition-shadow"
             >
-              <h3 className="font-serif text-2xl text-foreground mb-6">
+              <h3 className="font-serif text-xl text-foreground mb-6">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-3">
