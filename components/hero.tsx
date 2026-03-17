@@ -3,17 +3,17 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
-      <div className="max-w-4xl mx-auto text-center">
-        <p className="text-sm tracking-widest text-primary uppercase mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
+    <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-24 pb-12">
+      <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
+        <p className="text-sm tracking-widest text-primary uppercase mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
           Software Engineering Student
         </p>
         
-        <h1 className="font-serif text-5xl md:text-[56px] text-foreground mb-8 text-balance animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
+        <h1 className="font-serif text-5xl md:text-[56px] text-foreground mb-6 text-balance animate-in fade-in slide-in-from-bottom-6 duration-700 delay-150">
           {"Hi, I'm Hawi."}
         </h1>
         
-        <div className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12 text-pretty animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300 space-y-4">
+        <div className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8 text-pretty animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300 space-y-3">
           <p>
             Software Engineering student focused on building
             full-stack applications and cloud-based systems.
@@ -48,15 +48,15 @@ export function Hero() {
             Contact Me
           </Link>
         </div>
-      </div>
 
-      <Link
-        href="#about"
-        className="absolute bottom-12 animate-bounce text-muted-foreground hover:text-primary transition-colors"
-        aria-label="Scroll to about section"
-      >
-        <ArrowDown className="h-6 w-6" />
-      </Link>
+        <Link
+          href="#about"
+          className="mt-10 animate-bounce text-muted-foreground hover:text-primary transition-colors"
+          aria-label="Scroll to about section"
+        >
+          <ArrowDown className="h-6 w-6" />
+        </Link>
+      </div>
     </section>
   )
 }

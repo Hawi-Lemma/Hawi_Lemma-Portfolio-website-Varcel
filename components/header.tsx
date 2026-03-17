@@ -23,7 +23,7 @@ export function Header() {
           href="/" 
           className="font-serif text-2xl text-foreground hover:text-primary transition-colors"
         >
-          AC
+          HL
         </Link>
 
         {/* Desktop Navigation */}
