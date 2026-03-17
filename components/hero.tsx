@@ -48,15 +48,15 @@ export function Hero() {
             Contact Me
           </Link>
         </div>
-      </div>
 
-      <Link
-        href="#about"
-        className="absolute bottom-12 animate-bounce text-muted-foreground hover:text-primary transition-colors"
-        aria-label="Scroll to about section"
-      >
-        <ArrowDown className="h-6 w-6" />
-      </Link>
+        <Link
+          href="#about"
+          className="mt-16 animate-bounce text-muted-foreground hover:text-primary transition-colors"
+          aria-label="Scroll to about section"
+        >
+          <ArrowDown className="h-6 w-6" />
+        </Link>
+      </div>
     </section>
   )
 }
