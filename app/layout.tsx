@@ -15,8 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Alex Chen - Developer Portfolio',
-  description: 'Full-stack developer crafting elegant digital experiences with modern technologies',
+  title: 'Hawi Lemma - Developer Portfolio',
+  description: 'Software Engineering student building full-stack applications and cloud-based systems',
   generator: 'v0.app',
   icons: {
     icon: [

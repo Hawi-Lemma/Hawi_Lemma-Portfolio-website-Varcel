@@ -24,7 +24,7 @@ export function Footer() {
             href="/" 
             className="font-serif text-3xl text-foreground hover:text-primary transition-colors"
           >
-            AC
+            HL
           </Link>
 
           <nav className="flex flex-wrap items-center justify-center gap-6">
@@ -57,7 +57,7 @@ export function Footer() {
 
         <div className="text-center pt-8 border-t border-border/50">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Alex Chen. Crafted with care in San Francisco.
+            © {new Date().getFullYear()} Hawi Lemma. All rights reserved.
           </p>
         </div>
       </div>
