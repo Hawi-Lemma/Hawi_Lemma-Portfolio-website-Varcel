@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center px-6 py-12">
+    <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-24 pb-12">
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
         <p className="text-sm tracking-widest text-primary uppercase mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
           Software Engineering Student
