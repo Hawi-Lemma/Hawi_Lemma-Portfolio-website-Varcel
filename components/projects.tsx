@@ -19,10 +19,10 @@ const projects = [
   },
   {
     title: "William Personal Portfolio Site",
-    description: "Details coming soon.",
-    tags: [],
+    description: "A beautifully designed, single-page portfolio website featuring smooth scrolling navigation, interactive portfolio filtering, multi-language resume downloads, and Web3Forms integration. Showcases William Lukumbi's expertise in business strategy, data science, and AI implementation.",
+    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     image: "/images/project-3.jpg",
-    link: "#",
+    link: "https://hawi-lemma.github.io/Personal-Website-Client-William_Ngoy/",
   },
   {
     title: "Supermarket Price Comparison System",
