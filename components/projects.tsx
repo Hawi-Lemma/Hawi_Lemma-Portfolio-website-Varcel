@@ -4,24 +4,31 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Book Exchange Platform",
-    description: "A full-stack web application allowing users to buy, sell, and exchange second-hand books locally. Features include user accounts, searchable listings, book exchanges, and messaging between users.",
-    tags: ["Vue", "FastAPI", "PostgreSQL", "Docker", "Azure"],
+    title: "Books Platform",
+    description: "Details coming soon.",
+    tags: [],
     image: "/images/project-1.jpg",
     link: "#",
   },
   {
-    title: "AI Resume Analyzer",
-    description: "A lightweight application that analyzes resumes and extracts key skills using AI. The system processes uploaded documents and generates structured summaries.",
-    tags: ["FastAPI", "Python", "AI API", "Docker"],
+    title: "Yamral Africa Itineraries",
+    description: "Details coming soon.",
+    tags: [],
     image: "/images/project-2.jpg",
     link: "#",
   },
   {
-    title: "Cloud Container Demo",
-    description: "A demonstration project exploring containerized application deployment. The project showcases service separation, environment configuration, and database integration.",
-    tags: ["Docker", "PostgreSQL", "FastAPI"],
+    title: "William Personal Portfolio Site",
+    description: "A beautifully designed, single-page portfolio website featuring smooth scrolling navigation, interactive portfolio filtering, multi-language resume downloads, and Web3Forms integration. Showcases William Lukumbi's expertise in business strategy, data science, and AI implementation.",
+    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
     image: "/images/project-3.jpg",
+    link: "https://hawi-lemma.github.io/Personal-Website-Client-William_Ngoy/",
+  },
+  {
+    title: "Supermarket Price Comparison System",
+    description: "Details coming soon.",
+    tags: [],
+    image: "/images/project-4.jpg",
     link: "#",
   },
 ]
