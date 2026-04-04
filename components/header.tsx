@@ -9,7 +9,6 @@ const navItems = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -29,13 +28,13 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <Link
+            <a
               key={item.href}
               href={item.href}
               className="text-sm text-muted-foreground hover:text-primary transition-colors"
             >
               {item.label}
-            </Link>
+            </a>
           ))}
         </nav>
 
@@ -56,14 +55,14 @@ export function Header() {
         <nav className="md:hidden bg-card border-b border-border animate-in slide-in-from-top-2">
           <div className="px-6 py-4 flex flex-col gap-4">
             {navItems.map((item) => (
-              <Link
+              <a
                 key={item.href}
                 href={item.href}
                 className="text-muted-foreground hover:text-primary transition-colors py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
-              </Link>
+              </a>
             ))}
           </div>
         </nav>

@@ -1,5 +1,4 @@
 import { ArrowDown, Download } from "lucide-react"
-import Link from "next/link"
 
 export function Hero() {
   return (
@@ -28,34 +27,34 @@ export function Hero() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-500">
-          <Link
+          <a
             href="#projects"
             className="px-8 py-4 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:bg-primary/90 transition-all hover:scale-105"
           >
             View Projects
-          </Link>
-          <Link
+          </a>
+          <a
             href="/resume.pdf"
             className="px-8 py-4 bg-accent text-accent-foreground rounded-full text-sm font-medium hover:bg-accent/90 transition-all hover:scale-105 inline-flex items-center gap-2"
           >
             <Download className="h-4 w-4" />
             Download Resume
-          </Link>
-          <Link
+          </a>
+          <a
             href="#contact"
             className="px-8 py-4 border border-border text-foreground rounded-full text-sm font-medium hover:border-primary hover:text-primary transition-all"
           >
             Contact Me
-          </Link>
+          </a>
         </div>
 
-        <Link
+        <a
           href="#about"
           className="mt-10 animate-bounce text-muted-foreground hover:text-primary transition-colors"
           aria-label="Scroll to about section"
         >
           <ArrowDown className="h-6 w-6" />
-        </Link>
+        </a>
       </div>
     </section>
   )

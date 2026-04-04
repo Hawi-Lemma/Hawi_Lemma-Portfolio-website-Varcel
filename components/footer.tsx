@@ -1,17 +1,16 @@
 import Link from "next/link"
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin, Mail } from "lucide-react"
 
 const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
 ]
 
 const navLinks = [
   { label: "About", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Blog", href: "#blog" },
   { label: "Contact", href: "#contact" },
 ]
 
