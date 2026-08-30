@@ -4,33 +4,14 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
-    title: "Books Platform",
-    category: "Internship Project",
-    description: "This project represents my transition from learning frontend development to understanding how a full-stack application is built and deployed. During a three-month internship, I was responsible for building the Vue.js frontend while working in a collaborative development environment. Alongside the frontend, I gained hands-on exposure to backend development with FastAPI and learned how APIs connect frontend and backend applications. The project also introduced me to Docker, Azure containerized deployment, Google OAuth authentication, CORS, Git, GitHub, and collaborative development workflows.",
-    tags: ["Vue.js", "FastAPI", "Docker", "Azure", "PostgreSQL", "Google OAuth"],
-    learned: ["Component-based frontend development with Vue.js.", "REST API integration using FastAPI.", "Google OAuth authentication and CORS.", "Git and GitHub collaboration workflows.", "Docker fundamentals and Azure container deployment concepts."],
-    image: "/images/project-1.jpg",
+    title: "Hawi Lemma Portfolio Website",
+    category: "Prompt Engineering Project",
+    description: "This portfolio website was created as an experiment in AI-assisted web development using Vercel v0. Instead of writing the initial interface by hand, I translated design ideas and functional requirements into structured prompts, then refined the generated website through multiple iterations. The project helped me learn how to communicate design intent clearly, evaluate AI-generated implementations, and iteratively improve both the layout and the content while maintaining a consistent visual style. It also became a practical exercise in documenting projects and presenting my work professionally.",
+    tags: ["Prompt Engineering", "AI-Assisted Development", "Vercel v0"],
+    learned: ["Writing structured prompts that describe layout, typography, color palette, responsiveness, and component behavior.", "Breaking a large website into smaller, iterative design and content tasks.", "Reviewing AI-generated output critically and refining it through targeted feedback.", "Using AI as a development and design assistant rather than a replacement for engineering decisions.", "Organizing project content into a consistent and reusable portfolio structure."],
+    role: ["Defined the design system, layout, and content requirements through prompts.", "Iteratively refined AI-generated UI and content until it matched the intended design.", "Reviewed generated output for consistency, accessibility, responsiveness, and project storytelling."],
+    image: "/images/project-5.png",
     link: null,
-  },
-  {
-    title: "Yamral Africa Itineraries",
-    category: "Client Project",
-    description: "This website was one of my first large frontend projects while learning web development in 2020–2021. It was designed as an extension website for a travel agency to showcase hotel partnerships, travel itineraries, and destination information. Building this project taught me how to organize a multi-page website, structure content for real users, and create responsive layouts using only HTML, CSS, and JavaScript.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    learned: ["Multi-page website structure and navigation.", "Responsive layouts with HTML and CSS.", "Interactive elements using JavaScript.", "Translating business requirements into a user-facing website."],
-    image: "/images/project-2.jpg",
-    link: "https://github.com/Hawi-Lemma/Yamral-Africa-Website-Extension",
-    linkType: "GitHub repository",
-  },
-  {
-    title: "William Personal Portfolio Website",
-    category: "Client Project",
-    description: "A custom portfolio website built for a client to present professional experience and projects in a clean, modern, single-page layout. I designed and developed the site from a Figma mock-up, focusing on responsiveness, smooth navigation, and a polished user experience. The project includes interactive portfolio filtering, smooth scrolling navigation, multilingual résumé downloads, and a contact form powered by Web3Forms.",
-    tags: ["Figma", "HTML", "CSS", "JavaScript", "Web3Forms"],
-    learned: ["Converting a Figma design into a responsive website.", "Client communication and project planning.", "Interactive JavaScript UI features.", "Third-party form integration with Web3Forms."],
-    image: "/images/project-3.jpg",
-    link: "https://github.com/Hawi-Lemma/Personal-Website-Client-William_Ngoy",
-    linkType: "GitHub repository",
   },
   {
     title: "Supermarket Price Comparison System",
@@ -44,13 +25,33 @@ const projects = [
     linkNotice: "Open on a mobile phone, or launch developer tools in a new tab.",
   },
   {
-    title: "Hawi Lemma Personal Portfolio",
-    category: "Prompt Engineering Project",
-    description: "This personal portfolio website was designed and built entirely through prompt engineering. I translated detailed requirements for typography, color, layout, component structure, accessibility, responsive behavior, and project storytelling into a coherent production-ready interface, then organized and refined each iteration until the final site matched the intended visual direction.",
-    tags: ["Prompt Engineering", "Next.js", "React", "Tailwind CSS", "UI Design"],
-    learned: ["Structuring complex requirements into clear, actionable prompts.", "Directing typography, color, spacing, and component decisions through written specifications.", "Organizing a multi-section website into reusable components and consistent content patterns.", "Reviewing generated implementations and refining them through precise iterative feedback.", "Combining design judgment, technical planning, and prompt-based development into a polished product."],
-    image: "/images/project-5.png",
+    title: "Books Platform",
+    category: "Internship Project",
+    description: "This project represents my transition from learning frontend development to understanding how a full-stack application is built and deployed. During a three-month internship, I was responsible for building the Vue.js frontend while working in a collaborative development environment. Alongside the frontend, I gained hands-on exposure to backend development with FastAPI and learned how APIs connect frontend and backend applications. The project also introduced me to Docker, Azure containerized deployment, Google OAuth authentication, CORS, Git, GitHub, and collaborative development workflows.",
+    tags: ["Vue.js", "FastAPI", "Docker", "Azure", "PostgreSQL", "Google OAuth"],
+    learned: ["Component-based frontend development with Vue.js.", "REST API integration using FastAPI.", "Google OAuth authentication and CORS.", "Git and GitHub collaboration workflows.", "Docker fundamentals and Azure container deployment concepts."],
+    image: "/images/project-1.jpg",
     link: null,
+  },
+  {
+    title: "William Personal Portfolio Website",
+    category: "Client Project",
+    description: "A custom portfolio website built for a client to present professional experience and projects in a clean, modern, single-page layout. I designed and developed the site from a Figma mock-up, focusing on responsiveness, smooth navigation, and a polished user experience. The project includes interactive portfolio filtering, smooth scrolling navigation, multilingual résumé downloads, and a contact form powered by Web3Forms.",
+    tags: ["Figma", "HTML", "CSS", "JavaScript", "Web3Forms"],
+    learned: ["Converting a Figma design into a responsive website.", "Client communication and project planning.", "Interactive JavaScript UI features.", "Third-party form integration with Web3Forms."],
+    image: "/images/project-3.jpg",
+    link: "https://github.com/Hawi-Lemma/Personal-Website-Client-William_Ngoy",
+    linkType: "GitHub repository",
+  },
+  {
+    title: "Yamral Africa Itineraries",
+    category: "Client Project",
+    description: "This website was one of my first large frontend projects while learning web development in 2020–2021. It was designed as an extension website for a travel agency to showcase hotel partnerships, travel itineraries, and destination information. Building this project taught me how to organize a multi-page website, structure content for real users, and create responsive layouts using only HTML, CSS, and JavaScript.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    learned: ["Multi-page website structure and navigation.", "Responsive layouts with HTML and CSS.", "Interactive elements using JavaScript.", "Translating business requirements into a user-facing website."],
+    image: "/images/project-2.jpg",
+    link: "https://github.com/Hawi-Lemma/Yamral-Africa-Website-Extension",
+    linkType: "GitHub repository",
   },
 ]
 
@@ -77,28 +78,21 @@ export function Projects() {
                     </div>
                     {project.link && <ArrowUpRight className="h-5 w-5 text-muted-foreground group-hover:text-primary transition-colors" />}
                   </div>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">{project.description}</p>
-                <div className="mb-5">
-                  <p className="text-sm font-medium text-foreground mb-2">What I learned</p>
-                  <ul className="flex flex-col gap-1.5">
-                    {project.learned.map((item) => (
-                      <li key={item} className="text-xs text-muted-foreground leading-relaxed">{item}</li>
-                    ))}
-                  </ul>
+                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">{project.description}</p>
+                  <div className="mb-5">
+                    <p className="text-sm font-medium text-foreground mb-2">What I learned</p>
+                    <ul className="flex flex-col gap-1.5">
+                      {project.learned.map((item) => <li key={item} className="text-xs text-muted-foreground leading-relaxed">{item}</li>)}
+                    </ul>
+                  </div>
+                  {project.role && <div className="mb-5"><p className="text-sm font-medium text-foreground mb-2">My Role</p><ul className="flex flex-col gap-1.5">{project.role.map((item) => <li key={item} className="text-xs text-muted-foreground leading-relaxed">{item}</li>)}</ul></div>}
+                  <div className="flex flex-wrap gap-2">{project.tags.map((tag) => <span key={tag} className="text-xs px-3 py-1 bg-muted rounded-full text-muted-foreground">{tag}</span>)}</div>
+                  {project.linkType && <p className="mt-4 text-xs text-primary">Opens {project.linkType}</p>}
+                  {project.linkNotice && <p className="mt-2 text-xs text-muted-foreground leading-relaxed">{project.linkNotice}</p>}
                 </div>
-                <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag) => <span key={tag} className="text-xs px-3 py-1 bg-muted rounded-full text-muted-foreground">{tag}</span>)}
-                </div>
-                {project.linkType && <p className="mt-4 text-xs text-primary">Opens {project.linkType}</p>}
-                {project.linkNotice && <p className="mt-2 text-xs text-muted-foreground leading-relaxed">{project.linkNotice}</p>}
-              </div>
-            </article>
+              </article>
             )
-            return project.link ? (
-              <Link key={project.title} href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} — ${project.linkType}`}>
-                {card}
-              </Link>
-            ) : <div key={project.title}>{card}</div>
+            return project.link ? <Link key={project.title} href={project.link} target="_blank" rel="noopener noreferrer" aria-label={`${project.title} — ${project.linkType}`}>{card}</Link> : <div key={project.title}>{card}</div>
           })}
         </div>
       </div>
