@@ -43,6 +43,15 @@ const projects = [
     linkType: "PWA launch",
     linkNotice: "Open on a mobile phone, or launch developer tools in a new tab.",
   },
+  {
+    title: "Hawi Lemma Personal Portfolio",
+    category: "Prompt Engineering Project",
+    description: "This personal portfolio website was designed and built entirely through prompt engineering. I translated detailed requirements for typography, color, layout, component structure, accessibility, responsive behavior, and project storytelling into a coherent production-ready interface, then organized and refined each iteration until the final site matched the intended visual direction.",
+    tags: ["Prompt Engineering", "Next.js", "React", "Tailwind CSS", "UI Design"],
+    learned: ["Structuring complex requirements into clear, actionable prompts.", "Directing typography, color, spacing, and component decisions through written specifications.", "Organizing a multi-section website into reusable components and consistent content patterns.", "Reviewing generated implementations and refining them through precise iterative feedback.", "Combining design judgment, technical planning, and prompt-based development into a polished product."],
+    image: "/images/project-5.png",
+    link: null,
+  },
 ]
 
 export function Projects() {

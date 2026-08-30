@@ -2,9 +2,9 @@ import Link from "next/link"
 import { Github, Linkedin, Mail } from "lucide-react"
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/Hawi-Lemma", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/hawilemma", label: "LinkedIn" },
+  { icon: Mail, href: "mailto:lemma.cor@gmail.com", label: "Email" },
 ]
 
 const navLinks = [

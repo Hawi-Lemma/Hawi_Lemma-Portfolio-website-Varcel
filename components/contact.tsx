@@ -4,19 +4,19 @@ import Link from "next/link"
 const socialLinks = [
   {
     name: "GitHub",
-    href: "#",
+    href: "https://github.com/Hawi-Lemma",
     icon: Github,
     color: "bg-foreground/10 hover:bg-foreground hover:text-background",
   },
   {
     name: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/hawilemma",
     icon: Linkedin,
     color: "bg-primary/10 hover:bg-primary hover:text-primary-foreground",
   },
   {
     name: "Email",
-    href: "mailto:hello@example.com",
+    href: "mailto:lemma.cor@gmail.com",
     icon: Mail,
     color: "bg-accent/10 hover:bg-accent hover:text-accent-foreground",
   },
