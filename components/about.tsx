@@ -18,23 +18,16 @@ export function About() {
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           <div>
-            <p className="text-sm tracking-widest text-primary uppercase mb-4">
-              About Me
-            </p>
-            <h2 className="font-serif text-[32px] text-foreground mb-8 text-balance">
-              About Me
-            </h2>
+            <p className="text-sm tracking-widest text-primary uppercase mb-4">About Me</p>
+            <h2 className="font-serif text-[32px] text-foreground mb-8 text-balance">About Me</h2>
             <p className="text-base text-muted-foreground leading-relaxed">
-              I am a software engineering student interested in building practical systems 
-              that combine backend engineering, cloud infrastructure, and modern web interfaces.
+              I am a software engineering graduate (2026) interested in building practical systems that combine backend engineering, cloud infrastructure, and modern web interfaces.
             </p>
           </div>
-          
+
           <div className="space-y-8">
             <div>
-              <p className="text-base text-foreground font-medium mb-4">
-                My recent projects focus on:
-              </p>
+              <p className="text-base text-foreground font-medium mb-4">My recent projects focus on:</p>
               <ul className="space-y-2">
                 {focusAreas.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-base text-muted-foreground">
@@ -46,14 +39,11 @@ export function About() {
             </div>
 
             <p className="text-base text-muted-foreground leading-relaxed">
-              I enjoy designing systems from concept to deployment, including database design, 
-              backend APIs, and user-facing interfaces.
+              I enjoy designing systems from concept to deployment closely following the software development life cycle, optimizing database design, backend APIs, and user-facing interfaces.
             </p>
 
             <div>
-              <p className="text-base text-foreground font-medium mb-4">
-                Currently I am developing projects that showcase real-world engineering practices such as:
-              </p>
+              <p className="text-base text-foreground font-medium mb-4">Currently I am developing projects that showcase real-world engineering practices such as:</p>
               <ul className="space-y-2">
                 {practices.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-base text-muted-foreground">

@@ -20,7 +20,7 @@ export function Collaboration() {
 
         <div className="bg-card rounded-2xl p-8 md:p-12 shadow-sm border border-border/50">
           <p className="text-base text-muted-foreground leading-relaxed mb-8">
-            Many of my projects are developed in collaborative environments.
+            A couple of my projects are developed in collaborative environments.
           </p>
           
           <p className="text-base text-foreground font-medium mb-4">
