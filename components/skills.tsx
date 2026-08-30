@@ -5,11 +5,11 @@ const skillCategories = [
   },
   {
     title: "Frameworks",
-    skills: ["Vue.js", "FastAPI"],
+    skills: ["Vue.js", "Django"],
   },
   {
     title: "Infrastructure",
-    skills: ["Docker", "PostgreSQL", "Azure", "Git"],
+    skills: ["Docker", "PostgreSQL", "Git"],
   },
   {
     title: "Tools",
